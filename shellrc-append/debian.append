@@ -1,0 +1,2 @@
+alias hazupgrade='sudo apt update && sudo apt upgrade -y'
+alias hazconfirm='sudo apt update && sudo apt upgrade'
