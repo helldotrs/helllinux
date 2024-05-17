@@ -1,3 +1,6 @@
-alias hazupgrade='sudo apt update && sudo apt upgrade -y'
-alias hazconfirm='sudo apt update && sudo apt upgrade'
-#FIXME: alias hazinstall='sudo apt update && sudo apt install $1 -y'
+#FOR helllinux devs: Debian version should *MIRROR* Arch version. DO NOT add anything in Debian version before adding into Arch version first.
+
+alias hazupgrade='sudo apt update && sudo apt upgrade'
+alias plzupgrade='sudo apt update && sudo apt upgrade -y'
+
+#FIXME: alias plzinstall='sudo apt update && sudo apt install $1 -y'
