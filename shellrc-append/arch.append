@@ -1,3 +1,3 @@
-alias hazupgrade='yay -Syuv --noconfirm'
-alias hazconfirm='yay -Syuv'
-#FIXME: alias hazinstall='yay -Sv $1 --noconfirm' #mainly to keep consistant with debian version
+alias hazupgrade='yay -Syuv'
+alias plzupgrade='yay -Syuv --noconfirm'
+#FIXME: alias plzinstall='yay -Sv $1 --noconfirm' #mainly to allow in debian version, as apt is verbose
