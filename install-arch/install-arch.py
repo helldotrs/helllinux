@@ -11,6 +11,6 @@ if lang == "se":
 
 print("iwctl")
 print(f"station {hwname} scan")
-print(f"station {hwname} connect {wifiname}")
+print(f"station {hwname} connect {wifiname} --passphrase {wifipw}")
 print("exit")
 print("archinstall")
