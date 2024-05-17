@@ -1,4 +1,4 @@
-print("helllinux tutorial to install Arch. For edgecases please refer to Archwiki: ")
+print("helllinux tutorial to install Arch. Should work for most cases, if it does not, please refer to Archwiki: ")
 print(" ")
 
 lang     = "us" if input("lang [(S)e/(u)s]: ").strip().lower() == "u" else "se"
