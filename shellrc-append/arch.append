@@ -1,3 +1,5 @@
+# these are mainly to have a standard syntax between distros (as apt gets verbose and tend to lend itself towards aliases)
+
 alias hazupgrade='yay -Syuv'
 alias plzupgrade='yay -Syuv --noconfirm'
-#FIXME: alias plzinstall='yay -Sv $1 --noconfirm' #mainly to allow in debian version, as apt is verbose
+alias plzinstall='yay -Sv --noconfirm' 
