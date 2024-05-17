@@ -3,4 +3,4 @@
 alias hazupgrade='sudo apt update && sudo apt upgrade'
 alias plzupgrade='sudo apt update && sudo apt upgrade -y'
 
-#FIXME: alias plzinstall='sudo apt update && sudo apt install $1 -y'
+alias plzinstall='sudo apt update && sudo apt install -y' # untested
