@@ -1,2 +1,3 @@
 alias hazupgrade='sudo apt update && sudo apt upgrade -y'
 alias hazconfirm='sudo apt update && sudo apt upgrade'
+#FIXME: alias hazinstall='sudo apt update && sudo apt install $1 -y'
