@@ -1,0 +1,4 @@
+bad   = ["Desktop", "Documents", "Downloads", "Music", "Pictures", "Public", "Templates", "Videos"]
+long  = ["desktop", "documents", "downloads", "music", "pictures", "public", "templates", "videos"]
+short = ["desk",    "docs",      "dl",        "music", "pics",     "pub",    "templ",     "vids"  ] # dl to make us not have two do* 
+                                                                                                    # templ: "te" to allow for te[tab], l to distingish from temp
