@@ -1,3 +1,6 @@
+print("helllinux tutorial to install Arch. For edgecases please refer to Archwiki: ")
+print(" ")
+
 lang     = "us" if input("lang [(S)e/(u)s]: ").strip().lower() == "u" else "se"
 hwname   = input(wifi-hardware-name (default wlan0): ")
 hwname   = "wlan0" if len(hwname) > 0 else hwname
