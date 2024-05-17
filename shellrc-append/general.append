@@ -1,1 +1,2 @@
 alias cdgit='cd ~/git'
+#FIXME: alias remove='rm -rf $1' 
