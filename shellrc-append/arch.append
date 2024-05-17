@@ -1,0 +1,2 @@
+alias hazupgrade='yay -Syuv --noconfirm'
+alias hazconfirm='yay -Syuv'
