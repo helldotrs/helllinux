@@ -1,2 +1,0 @@
-cmd = 'echo "hello kitty!"'
-
