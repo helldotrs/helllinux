@@ -7,6 +7,8 @@ script_locations = [
   
   "install/yay-installer.sh",
   "utility/yay-update.sh",
+
+  
 ]
 
 #####################################################
