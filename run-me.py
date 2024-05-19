@@ -1,6 +1,13 @@
 import runpy
 
+scripts_to_run = [  'scripts/my-script.py',
+          
+                    'shellrc-append/append-to-bashrc.py',
+                    'scripts/utility/source-bashrc.sh',
+]
+
 def run(path):
   runpy.run_path(path)
 
-run('scripts/my-script.py')
+for script in scripts_to_run:
+  run(script)
