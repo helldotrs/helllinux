@@ -1,6 +1,7 @@
 #FOR helllinux devs: Debian version should *MIRROR* Arch version. DO NOT add anything in Debian version before adding into Arch version first.
+#FIX ME: append script currently appends all .append files in this dir. hence this is commented out. to reenable just replace ### with nothing.
 
-alias hazupgrade='sudo apt update && sudo apt upgrade'
-alias plzupgrade='sudo apt update && sudo apt upgrade -y'
+###alias hazupgrade='sudo apt update && sudo apt upgrade'
+###alias plzupgrade='sudo apt update && sudo apt upgrade -y'
 
-alias plzinstall='sudo apt update && sudo apt install -y' # untested
+###alias plzinstall='sudo apt update && sudo apt install -y' # untested
