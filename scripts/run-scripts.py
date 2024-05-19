@@ -3,9 +3,10 @@ import subprocess
 # script locations (the only thing that should need editing
 # for readability group by folders when execute order does not matter
 script_locations = [  
-  "init.sh", # init.sh SHOULD ALWAYS be the first script to run
+  "utility/init.sh", # init.sh SHOULD ALWAYS be the first script to run  
   
   "install/yay-installer.sh",
+  "utility/yay-update.sh",
 ]
 
 #####################################################
