@@ -1,4 +1,22 @@
+import os
+
 bad   = ["Desktop", "Documents", "Downloads", "Music", "Pictures", "Public", "Templates", "Videos"]
 long  = ["desktop", "documents", "downloads", "music", "pictures", "public", "templates", "videos"]
 short = ["desk",    "docs",      "dl",        "music", "pics",     "pub",    "templ",     "vids"  ] # dl to make us not have two do* 
                                                                                                     # templ: "te" to allow for te[tab], l to distingish from temp
+
+home_dir = os.path.expanduser("~")
+
+# renaming
+for old_name, new_name in zip(bad, short):
+    old_path = os.path.join(home_dir, old_name)
+    new_path = os.path.join(home_dir, new_name)
+    
+    # Check if the old directory exists
+    if os.path.exists(old_path):
+        os.rename(old_path, new_path)
+        print(f"Renamed {old_path} to {new_path}")
+    else:
+        print(f"{old_path} does not exist")
+
+print("Reconfiguration completed.")
