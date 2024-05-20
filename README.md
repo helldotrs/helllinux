@@ -1,4 +1,6 @@
-Arch post-install setup script. in progress.
+work in progress.
+
+helllinux is a post-install setup script for Arch Linux. 
 
 usage:
 python3 run-me.py
