@@ -1,3 +1,7 @@
+"""
+Replacees the M$Windows like names with propper lowercase names, 
+"""
+
 import os
 
 bad   = ["Desktop", "Documents", "Downloads", "Music", "Pictures", "Public", "Templates", "Videos"]
