@@ -1,4 +1,4 @@
-work in progress.
+work in progress.  alpha .001
 
 helllinux is a post-install setup script for Arch Linux. 
 
